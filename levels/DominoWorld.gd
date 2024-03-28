@@ -615,3 +615,7 @@ func determine_winner():
 	winner_text.erase(winner_text.length() - 1, 1)
 	winner_text.erase(winner_text.length() - 1, 1)
 	return winner_text
+	
+# Make domino shiny (show valid moves)
+func show_valid_move():
+	var test = 0
